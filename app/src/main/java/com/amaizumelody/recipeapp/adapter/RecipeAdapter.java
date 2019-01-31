@@ -55,7 +55,6 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeAdapter.MyHolder> 
         }
 
         Glide.with(mContext).load(recipe.getImage()).into(holder.thumbnail);
-
     }
 
     @Override

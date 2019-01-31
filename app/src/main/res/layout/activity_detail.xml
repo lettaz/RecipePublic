@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:fitsSystemWindows="true"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:theme="@style/AppTheme2"
         >
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -40,8 +40,22 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="bottom"
                 app:layout_collapseMode="pin"
+                android:layout_marginBottom="15dp"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recipe_name"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:textSize="30sp"
+                    android:gravity="center_horizontal"
+                    android:text="FOOD NAME"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    />
             </android.support.v7.widget.Toolbar>
         </android.support.design.widget.CollapsingToolbarLayout>
 

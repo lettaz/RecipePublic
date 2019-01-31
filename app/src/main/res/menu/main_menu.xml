@@ -8,5 +8,4 @@
         android:orderInCategory="100"
         app:showAsAction="always"
         />
-
 </menu>

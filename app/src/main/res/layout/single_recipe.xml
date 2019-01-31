@@ -51,7 +51,7 @@
         android:paddingLeft="5dp"
         android:layout_marginTop="5dp"
         android:numStars="5"
-        android:rating="3"/>
+        android:rating="5"/>
 
     <TextView
         android:id="@+id/calories"
